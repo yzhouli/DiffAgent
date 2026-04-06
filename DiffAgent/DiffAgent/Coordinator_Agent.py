@@ -4,10 +4,10 @@ import time
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-g7KYh5jEVzuzPOw7E755Eb810bAd44F79aB482E85414207a",  # Replace with your key
-    base_url="https://aihubmix.com/v1"  # Replace with your llm url
+    api_key="key",  # Replace with your key
+    base_url="url"  # Replace with your llm url
 )
-MODEL_NAME = "qwen3.5-35b-a3b"  # Replace with your llm name, such as DeepSeek V3
+MODEL_NAME = "llm name"  # Replace with your llm name, such as DeepSeek V3
 
 
 def build_text_messages(system_prompt, content):
