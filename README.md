@@ -33,6 +33,8 @@ Due to GitHub's file size limitations, the `.pkl` files and multimodal resources
 │   ├── Semantic_Expert.py       # Parses multimodal topic motivations
 │   ├── Profile_Expert.py        # Evaluates individual historical susceptibility
 │   └── Topology_Expert.py       # Quantifies structural social attraction
+├── utils/
+│   ├── evaluation.py            # Use evaluation metrics such as HITS@k, MAP@k, and NDCG@k to evaluate the model's performance
 ├── main.py                      # Main evaluation pipeline for DiffAgent
 ├── saves/                       # Directory for output JSON results (auto-resume)
 └── README.md
