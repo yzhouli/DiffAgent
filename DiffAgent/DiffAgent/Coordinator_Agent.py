@@ -36,11 +36,13 @@ class ACMemoryAgent:
     def __init__(self):
         print("Initializing AC Memory Agent...")
 
-    def update_memory(self, previous_memory, new_observation):
+    def update_memory(self, previous_memory, new_observation, use_agent=False):
         if not previous_memory or previous_memory.strip() == "Memory is currently empty.":
             return new_observation
 
         print("   -> [Memory Agent] Running Actor-Critic memory integration...")
+        if not use_agent:
+            return f'{previous_memory}\n{new_observation}'
 
         # 1. Actor Phase: Draft the combined memory
         actor_sys = """You are the Memory Actor. 
