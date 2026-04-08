@@ -126,5 +126,5 @@ Please directly output the ranked list of user IDs (from highest to lowest propa
 
 
 if __name__ == '__main__':
-    save_path = f'saves/{MODEL_NAME}.json'
+    save_path = f'../saves/{MODEL_NAME}.json'
     main(save_path)
