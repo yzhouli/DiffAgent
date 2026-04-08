@@ -11,10 +11,10 @@ from io import BytesIO
 from tqdm import tqdm
 
 client = OpenAI(
-    api_key="key",  # Replace with your key
-    base_url="http://0.0.0.0:8000/v1"  # Replace with your llm url
+    api_key="your key",  # Replace with your key
+    base_url="url"  # Replace with your llm url
 )
-MODEL_NAME = "qwen3.5_4B"  # Replace with your llm name, such as DeepSeek V3
+MODEL_NAME = "llm name"  # Replace with your llm name, such as DeepSeek V3
 
 
 def encode_image(image_path, max_size=(400, 300)):
