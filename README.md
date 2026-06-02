@@ -15,16 +15,16 @@ This repository contains the official implementation of **DiffAgent**, a novel *
 
 ## 📂 Repository Structure
 
-Due to GitHub's file size limitations, the `.pkl` files and multimodal resources provided here are **partial/sampled datasets** intended for quick reproduction and testing.
+Due to GitHub's file size limitations, the `.pkl` files and multimodal resources provided here are **Test datasets** intended for testing DiffAgent. To train a model, please refer to the complete dataset (including training, validation, and test sets) at: https://www.kaggle.com/datasets/yangzhou32/omni-reldiff
 
 ```text
 ├── datasets/
 │   ├── cascades.txt             # Full dataset: Information cascade sequences
-│   ├── edges.txt                # Partial dataset: Social network graph edges
-│   ├── news.pkl                 # Partial dataset: Multimodal topic data
-│   ├── users.pkl                # Partial dataset: User profiles and histories
-│   ├── test.pkl                 # Partial dataset: Evaluation sequences
-│   └── mm/                      # Partial dataset: Raw image and video files
+│   ├── edges.txt                # Test dataset: Social network graph edges
+│   ├── news.pkl                 # Test dataset: Multimodal topic data
+│   ├── users.pkl                # Test dataset: User profiles and histories
+│   ├── test.pkl                 # Test dataset: Evaluation sequences
+│   └── mm/                      # Test dataset: Raw image and video files
 ├── baselines/
 │   ├── llm_baseline.py          # Standard LLM single-prompt baseline
 │   └── mllm_baseline.py         # Standard MLLM single-prompt baseline
