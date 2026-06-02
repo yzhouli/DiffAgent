@@ -1,4 +1,4 @@
-# Beyond ID-Matching: Towards Interrogatable Information Diffusion Prediction via Socially-Aware Multi-Agent Reasoning
+# Explainable Multimodal Information Diffusion Reranking via Socially-Aware Multi-Agent Reasoning
 
 
 
