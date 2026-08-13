@@ -19,12 +19,12 @@ Due to GitHub's file size limitations, the `.pkl` files and multimodal resources
 
 ```text
 ├── datasets/
-│   ├── cascades.txt             # Full dataset: Information cascade sequences
-│   ├── edges.txt                # Test dataset: Social network graph edges
-│   ├── news.pkl                 # Test dataset: Multimodal topic data
-│   ├── users.pkl                # Test dataset: User profiles and histories
-│   ├── test.pkl                 # Test dataset: Evaluation sequences
-│   └── mm/                      # Test dataset: Raw image and video files
+│   ├── cascades.txt             # Information cascade sequences
+│   ├── edges.txt                # Social network graph edges
+│   ├── news.pkl                 # Multimodal topic data
+│   ├── users.pkl                # User profiles and histories
+│   ├── test.pkl                 # Evaluation sequences
+│   └── mm/                      # Raw image and video files
 ├── baselines/
 │   ├── llm_baseline.py          # Standard LLM single-prompt baseline
 │   └── mllm_baseline.py         # Standard MLLM single-prompt baseline
