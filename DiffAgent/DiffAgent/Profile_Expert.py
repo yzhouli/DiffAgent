@@ -62,7 +62,7 @@ class ProfileExpert:
             if uid in self.users_dict:
                 description = self.users_dict[uid].get('description', 'No description available')
 
-                history_raw = self.users_dict[uid].get('history', [])[:10]
+                history_raw = self.users_dict[uid].get('history', [])[:100]
                 history_clean = [str(i)[:10].replace('\n', '. ') for i in history_raw]
                 history_str = ' | '.join(history_clean) if history_clean else "Not provided"
 
