@@ -36,7 +36,7 @@ class ACMemoryAgent:
     def __init__(self):
         print("Initializing AC Memory Agent...")
 
-    def update_memory(self, previous_memory, new_observation, use_agent=False):
+    def update_memory(self, previous_memory, new_observation, use_agent=True):
         if not previous_memory or previous_memory.strip() == "Memory is currently empty.":
             return new_observation
 
